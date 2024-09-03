@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fdfbfb;
+    background-color: #3d3d3d42;
+    overflow-x: hidden;
+    background-image: url('/fundo.jpeg');
+    background-size:contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #3d3a3a;
+    color: #f3f3f3;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e5ff00;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.sobre-content {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sobre-content .avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Hobbys-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Hobbys {
+    background: #fff9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Hobbys:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgb(178, 243, 0);
+}
+
+.Hobbys img {
+    width: 100%;
+    height: auto;
+}
+
+.Hobbys h3 {
+    padding: 15px;
+    font-size: 1.25em;
+    background: #000000;
+    color: #fdfcfc;
+}
+
+.Hobbys p {
+    padding: 15px;
+    background: #ffffff;
+    color:#000000
+}
+
+.habilidades-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.habilidade {
+    background: #b2c417;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.contato-lista {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contato-lista li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.contato-lista li a {
+    color: #ffffffb2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contato-lista li a:hover {
+    color: #000000;
+}
+
+footer {
+    background:#3b3b3b;
+    color: #f5eeee;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+#moto {
+    max-width: 50%; /* Ajusta a largura máxima da imagem para o contêiner*/
+    height: auto;    /* Mantém a proporção da imagem */
+    display: block;  /* Remove o espaço em branco abaixo da imagem */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente se necessário */
+}
+#camera {
+    max-width: 50%; 
+    height: auto;    
+    display: block; 
+    margin: 0 auto;  
+}
+#cinema {
+    max-width: 50%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+}
+#jogos {
+    max-width: 50%; 
+    height: auto;    
+    display: block; 
+    margin: 0 auto;  
+}
+
+
+
